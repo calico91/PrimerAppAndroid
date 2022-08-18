@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">app03RadioButton</string>
+    <string name="etPNumero">Primer Numero</string>
+    <string name="etSNumero">Segundo Numero</string>
+    <string name="rbSumar">Sumar</string>
+    <string name="rbResta">Restar</string>
+    <string name="rbMulti">Multiplicar</string>
+    <string name="rbDividir">Dividir</string>
+    <string name="butCalcular">Calcular</string>
+    <string name="tvResultado">Resultado</string>
+
+
+</resources>
