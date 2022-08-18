@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">app04CheckList</string>
+    <string name="editTextNumber1">Primer Numero</string>
+    <string name="editTextNumber2">Segundo Numero</string>
+    <string name="checkBoxSuma">Sumar</string>
+    <string name="checkBoxResta">Restar</string>
+    <string name="button">Calcular</string>
+    <string name="textView">Resultado</string>
+
+</resources>
