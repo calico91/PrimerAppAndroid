@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string name="editTextNumber1">Primer Numero</string>
+    <string name="editTextNumber2">Segundo Numero</string>
+    <string name="button">Calcular</string>
+    <string name="textViewResultado">Resultado</string>
+
+
+</resources>
