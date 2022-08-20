@@ -27,14 +27,15 @@ public class MainActivity extends AppCompatActivity {
         spinner1=(Spinner) findViewById(R.id.spinner);
 
         String [] opciones ={"sumar","restar","multiplicar","dividir"};
-        ArrayAdapter <String> adaptadorSpinner=new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,opciones);
+        // atributos de arrayadapter contexto, tipo de spinner y los datos que se mostraran
+        ArrayAdapter <String> adaptadorSpinner=new ArrayAdapter<String>(this, R.layout.spinner_item,opciones);
         spinner1.setAdapter(adaptadorSpinner);//envia el spinner que se guardo en el arreglo al layaout
     }
     public void calcular(View view){
         int num1 = Integer.parseInt(et1.getText().toString());
         int num2 = Integer.parseInt(et2.getText().toString());
-        int operacion =0;
-        String resultado ="";
+        int operacion = 0;
+        String resultado = "";
 
         String seleccion = spinner1.getSelectedItem().toString();
         switch (seleccion){
