@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">parametrosAOtraActivity</string>
+    <string name="etNombre1">Nombre</string>
+    <string name="etNombre2">Nombre</string>
+    <string name="botonEnviar">Enviar</string>
+    <string name="BotonRegresar">Regresar</string>
+
+</resources>

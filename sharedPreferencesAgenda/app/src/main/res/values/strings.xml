@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sharedPreferencesAgenda</string>
+    <string name="et1">Nombre Contacto</string>
+    <string name="et2">Datos de contacto</string>
+    <string name="bGuardar">Guardar</string>
+    <string name="bBuscar">Buscar</string>
+    <string name="bLimpiar">Limpiar</string>
+
+
+</resources>

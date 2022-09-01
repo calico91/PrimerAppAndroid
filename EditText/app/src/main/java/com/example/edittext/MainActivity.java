@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
         String nombre = etn.getText().toString();
         String password = etp.getText().toString();
 
-        
+
     }
 }

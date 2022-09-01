@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sharedPreferences</string>
+    <string name="txtMail">Ingrese su Correo</string>
+    <string name="button">Guardar</string>
+</resources>
