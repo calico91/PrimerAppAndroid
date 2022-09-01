@@ -50,6 +50,7 @@
         android:layout_height="46dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="28dp"
+        android:onClick="Buscar"
         android:text="@string/butBuscar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butRegistrar" />
@@ -60,6 +61,7 @@
         android:layout_height="46dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="48dp"
+        android:onClick="Registrar"
         android:text="@string/butRegistrar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPrecio" />
@@ -70,6 +72,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="28dp"
+        android:onClick="Modificar"
         android:text="@string/butModificar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butEliminar" />
@@ -80,8 +83,23 @@
         android:layout_height="46dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="28dp"
+        android:onClick="Eliminar"
         android:text="@string/butEliminar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butBuscar" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="118dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Limpiar"
+        android:text="Limpiar"
+        app:layout_constraintBottom_toTopOf="@+id/txtCodigo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
