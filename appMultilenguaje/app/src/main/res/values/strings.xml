@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">appMultilenguaje</string>
+    <string name="textView">Todos los derechos reservados</string>
+    <string name="etUsuario">Usuario</string>
+    <string name="etPassword">Contraseña</string>
+    <string name="button">Inicar Sesion</string>
+
+</resources>
